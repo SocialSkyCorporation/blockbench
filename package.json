@@ -63,7 +63,7 @@
 	},
 	"scripts": {
 		"pack": "build --dir --publish=always",
-		"dist": "build --publish=always --releaseType=always"
+		"dist": "build --publish=always"
 	},
 	"devDependencies": {
 		"async": "^2.4.1",
