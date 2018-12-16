@@ -62,13 +62,13 @@
 		"target": "dmg"
 	},
 	"scripts": {
-		"pack": "build --dir",
-		"dist": "build --publish always"
+		"pack": "build --dir --publish=always",
+		"dist": "build --publish=always --releaseType=always"
 	},
 	"devDependencies": {
 		"async": "^2.4.1",
 		"electron": "^2.0.0",
-		"electron-builder": "^20.6.2"
+		"electron-builder": "^20.38.3"
 	},
 	"dependencies": {
 		"winreg": "^1.2.4"
